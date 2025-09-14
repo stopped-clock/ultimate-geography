@@ -20,6 +20,8 @@ fields:
     font: Arial
   - name: Population
     font: Arial
+  - name: Region code
+    font: Arial
 templates:
   - name: Country - Capital
     html_file: src/note_models/templates/Country - Capital.html
@@ -33,3 +35,5 @@ templates:
     html_file: src/note_models/templates/Country - Map.html
   - name: Map - Country
     html_file: src/note_models/templates/Map - Country.html
+  - name: Country - Population
+    html_file: src/note_models/templates/Country - Population.html
